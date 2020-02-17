@@ -1,5 +1,6 @@
 var canvas = document.getElementsByClassName("drawing-board")[0];
 // Set the width and height of the canvas.
+console.log(canvas);
 canvas.width = 600;
 canvas.height = 300;
 // Grab the context of the canvas so that we can draw.
